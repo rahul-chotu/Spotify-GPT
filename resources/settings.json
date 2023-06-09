@@ -1,0 +1,30 @@
+{
+    "paths": {
+        "save_location": "./saved_lists",
+        "log_location": "./resources/logs",
+        "theme_location": "./themes"
+    },
+    "default_values": {
+        "spotipy": {
+            "top_songs": {
+                "list_limit": 10,
+                "id_list_limit": 5,
+                "offset": 0,
+                "time_range": "short_term"
+            },
+            "recently_played": {
+                "list_limit": 10
+            }
+        },
+        "chatgpt": {
+            "result_number": 5,
+            "role": "system",
+            "content": "You are an assistant that recommends music.",
+            "model": "gpt-3.5-turbo"
+        }
+    },
+    "gui": {
+        "appearance_mode": "Dark",
+        "theme": "C:\\Users\\rahul\\PycharmProjects\\Spotify GPT v2.0\\resources\\themes\\purple.json"
+    }
+}
