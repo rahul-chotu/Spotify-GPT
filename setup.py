@@ -9,7 +9,7 @@ class Setup:
     # --- About ---
     NAME = "Spotify-GPT"
     VERSION = "2.0.0"
-    URL = "https://github.com/rahul-chotu/Spotify-GPT/tree/main"
+    URL = "https://github.com/rahul-chotu/Spotify-GPT"
     AUTHOR = "Rahul Chotu"
     #######################
 

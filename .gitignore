@@ -314,4 +314,8 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,python,pycharm
 
+# Testing folder
 /testing/
+
+# .idea folder
+.idea/
