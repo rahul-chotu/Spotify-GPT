@@ -1,5 +1,6 @@
 import logging
 import datetime
+import os
 
 from setup import Setup
 
@@ -47,3 +48,13 @@ class Logger:
 
             case "error":
                 self.logger.error(f"{message}")
+
+    def clear_logs(self, log_path: str = Setup.LOG_PATH) -> None:
+        try:
+            for filename in os.listdir(log_path):
+                file_path = os.path.join(log_path, filename)
+                os.remove(file_path)
+        except PermissionError:
+            pass
+
+        return self.log("debug", "Cleared log folder")
